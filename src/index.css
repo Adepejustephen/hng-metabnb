@@ -9,4 +9,10 @@ html {
   body{
     background-color: #ffffff;
   }
+  .text-linear {
+    background: -webkit-linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
 }
