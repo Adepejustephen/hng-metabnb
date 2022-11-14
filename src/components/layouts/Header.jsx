@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { MainLogo, MobLogo } from "../../assests";
+import { MainLogo } from "../../assests";
 import { menus } from "../../data/menus";
 import { Button } from "../buttons";
 import {SlMenu} from 'react-icons/sl'
@@ -17,16 +17,12 @@ const Header = () => {
     <header className="flex items-center px-5 py-10 md:px-14 xl:px-0 ">
       <div className="flex items-center justify-between w-full max-w-[1200px] m-auto">
         {/*Logo  */}
-        <div className="max-w-[14.5rem]">
-          <img
-            src={MobLogo}
-            alt="metabnb-logo"
-            className="w-full object-contain md:hidden"
-          />
+        <div className="w-full max-w-[10rem] md:max-w-[14.5rem]">
+        
           <img
             src={MainLogo}
             alt="metabnb-logo"
-            className="hidden w-full object-contain md:flex"
+            className="w-full object-contain"
           />
         </div>
 
