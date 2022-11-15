@@ -10,6 +10,7 @@ module.exports = {
       },
       backgroundImage: {
         mainPurple: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)",
+        plCardBg: "linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%)",
       },
       // fontFamily: {
       //   sans: ["Proxima Nova", ...defaultTheme.fontFamily.sans],
