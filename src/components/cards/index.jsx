@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart, RatingStar } from "../../assests/svgs";
+import { RatingStar } from "../../assests/svgs";
 
 export const PlaceCard = ({img}) => {
   return (
@@ -10,7 +10,7 @@ export const PlaceCard = ({img}) => {
           alt="place_card_img"
           className="object-contain w-full h-full"
         />
-        <Heart className="relative top-3 right-3" />
+        
       </div>
       <div className="flex flex-col gap-[0.625rem]">
         <div className="flex justify-between text-txtDark text-xs">

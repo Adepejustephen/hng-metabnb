@@ -1,6 +1,7 @@
 import React from "react";
 import { HeroImg, MbLogo, MbToken, MetaLogo, MetaMask, NftSec, Opensea, OpenSeaLogo } from "../../assests";
-import {Button } from '../../components'
+import {Button, PlaceCard } from '../../components'
+import { homePlaces } from "../../data/places";
 // min-h-[20.125rem]
 export const Home = () => {
   return (
@@ -31,7 +32,7 @@ export const Home = () => {
             </div>
           </div>
           {/* Hero image */}
-          <div className="hidden md:flex max-w-[25rem] xl:max-w-[29.75rem] w-full  h-full">
+          <div className="hidden xl:flex max-w-[25rem] xl:max-w-[29.75rem] w-full  h-full">
             <img
               src={HeroImg}
               alt="home_image"
@@ -60,6 +61,11 @@ export const Home = () => {
           <h2 className="font-bold text-3xl text-black md:text-5xl text-center">
             Inspiration for your next adventure
           </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {homePlaces.map((item, id) => {
+              return <PlaceCard key={id} img={item} />;
+            })}
+          </div>
         </div>
       </section>
 
