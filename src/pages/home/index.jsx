@@ -55,6 +55,7 @@ export const Home = () => {
           <Opensea />
         </div>
       </div>
+      
       {/* Places */}
       <section className="flex w-full min-h-screen px-5 py-10 md:px-14 xl:px-0">
         <div className="text-txtDark flex flex-col md:gap-10  items-center w-full max-w-[1200px] m-auto ">
