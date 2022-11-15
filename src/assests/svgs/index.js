@@ -9,5 +9,9 @@ import {ReactComponent as MbLogo } from './mb-logo.svg'
 import {ReactComponent as Opensea } from './opensea.svg'
 import {ReactComponent as MetaMask } from './metamask-2.svg'
 import {ReactComponent as MbToken } from './mb-token.svg'
+import {ReactComponent as MetamaskIcon } from './metamask.svg'
+import {ReactComponent as RightIcon } from './right-icon.svg'
+import {ReactComponent as TimesIcon } from './times.svg'
+import {ReactComponent as WalletICon } from './wallet.svg'
 
-export {Facebook, Instagram, Twitter, Heart, RatingStar, OpenSeaLogo, MbLogo, MetaLogo, Opensea, MetaMask, MbToken}
+export {Facebook, Instagram, Twitter, Heart, RatingStar, OpenSeaLogo, MbLogo, MetaLogo, Opensea, MetaMask, MbToken, MetamaskIcon, WalletICon, RightIcon, TimesIcon}

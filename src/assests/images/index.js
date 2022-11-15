@@ -20,5 +20,6 @@ import Place13 from './place-13.png'
 import Place14 from './place-14.png'
 import Place15 from './place-15.png'
 import Place16 from './place-16.png'
+import WalletImg from './wallet.png'
 
-export  {FooterLogo, MainLogo, MobFooterLogo, MobLogo, HeroImg, NftSec, Place01, Place02, Place03, Place04, Place05, Place06, Place07, Place08, Place09, Place10, Place11, Place12, Place13, Place14, Place15, Place16}
+export  {FooterLogo, MainLogo, MobFooterLogo,WalletImg , MobLogo, HeroImg, NftSec, Place01, Place02, Place03, Place04, Place05, Place06, Place07, Place08, Place09, Place10, Place11, Place12, Place13, Place14, Place15, Place16}
