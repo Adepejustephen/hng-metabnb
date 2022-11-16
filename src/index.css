@@ -16,4 +16,7 @@ background-clip: text;
   -webkit-text-fill-color: transparent;
   
   }
+  .heart path:hover {
+fill: red;
+  }
 }
