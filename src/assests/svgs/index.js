@@ -13,5 +13,23 @@ import {ReactComponent as MetamaskIcon } from './metamask.svg'
 import {ReactComponent as RightIcon } from './right-icon.svg'
 import {ReactComponent as TimesIcon } from './times.svg'
 import {ReactComponent as WalletICon } from './wallet.svg'
+import {ReactComponent as SettingsIcon } from './setting-5.svg'
 
-export {Facebook, Instagram, Twitter, Heart, RatingStar, OpenSeaLogo, MbLogo, MetaLogo, Opensea, MetaMask, MbToken, MetamaskIcon, WalletICon, RightIcon, TimesIcon}
+export {
+  Facebook,
+  Instagram,
+  Twitter,
+  Heart,
+  RatingStar,
+  OpenSeaLogo,
+  MbLogo,
+  MetaLogo,
+  Opensea,
+  MetaMask,
+  MbToken,
+  MetamaskIcon,
+  WalletICon,
+  RightIcon,
+  TimesIcon,
+  SettingsIcon,
+};

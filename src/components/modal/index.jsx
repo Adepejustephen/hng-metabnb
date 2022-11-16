@@ -5,10 +5,10 @@ import { MetamaskIcon, RightIcon, TimesIcon } from "../../assests/svgs";
 export const Modal = ({closeModal}) => {
   return (
     <div
-      className="flex items-center justify-center min-h-screen bg-modalbg inset-0 fixed z-[100] w-full top-0 left-0 pb-4 animate-scale"
+      className="flex items-center justify-center min-h-screen bg-modalbg inset-0 fixed z-[101] w-full top-0 left-0 pb-4 animate-scale"
       onClick={closeModal}
     >
-      <div className="max-w-[600px] flex flex-col bg-white rounded-2xl w-full">
+      <div className="max-w-[600px] flex flex-col bg-white rounded-2xl w-full z-[200]">
         <div className="py-6 px-8 border-b border-[#CFD8DC] flex items-center justify-between">
           <h4 className="text-2xl text-[#333333]">Connect Wallet</h4>
           <TimesIcon />

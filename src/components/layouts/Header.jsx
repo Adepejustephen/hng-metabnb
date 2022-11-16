@@ -25,11 +25,13 @@ const Header = () => {
         <div className="flex items-center justify-between w-full max-w-[1200px] m-auto">
           {/*Logo  */}
           <div className="w-full max-w-[10rem] md:max-w-[14.5rem]">
-            <img
-              src={MainLogo}
-              alt="metabnb-logo"
-              className="w-full object-contain"
-            />
+            <NavLink to="/">
+              <img
+                src={MainLogo}
+                alt="metabnb-logo"
+                className="w-full object-contain"
+              />
+            </NavLink>
           </div>
 
           {/* Nav menus */}
@@ -50,7 +52,7 @@ const Header = () => {
                   );
                 })}
               </div>
-              <Button whitebg onclick={modalControl}>
+              <Button whitebg onClick={() => { modalControl(); setOpenNav(!openNav) }}>
                 Connect wallet
               </Button>
             </nav>
